@@ -1,87 +1,69 @@
-# Welcome to React Router!
+# Image Dekho - AI Image Generator
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+A modern React application that generates images using Stability AI's powerful image generation API. Create stunning images from text descriptions with various artistic styles.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- Text-to-image generation
+- Multiple artistic style presets
+- Real-time image generation
+- Responsive design
+- Image download capability
+- Prompt history
+- Share functionality
+
+## Technologies Used
+
+- React
+- TypeScript
+- Vite
+- Stability AI API
+- CSS3 with modern features
 
 ## Getting Started
 
-### Installation
-
-Install the dependencies:
-
+1. Clone the repository:
 ```bash
+git clone https://github.com/ajcoder25/AI_Image_Genrator.git
+```
+
+2. Install dependencies:
+```bash
+cd AI_Image_Genrator
 npm install
 ```
 
-### Development
+3. Create a `.env` file in the root directory and add your Stability AI API key:
+```env
+VITE_STABILITY_API_KEY=your_api_key_here
+```
 
-Start the development server with HMR:
-
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+5. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Building for Production
+## Available Style Presets
 
-Create a production build:
+- Analog Film
+- Anime
+- Cinematic
+- Comic Book
+- Digital Art
+- Enhanced
+- Fantasy
+- Isometric
+- Line Art
+- Low Poly
+- Clay Art
+- Neon Punk
+- Origami
+- Photographic
+- Pixel Art
+- 3D Model
 
-```bash
-npm run build
-```
+## Contributing
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Feel free to submit issues and enhancement requests!
