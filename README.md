@@ -2,7 +2,11 @@
 
 A modern React application that generates images using Stability AI's powerful image generation API. Create stunning images from text descriptions with various artistic styles.
 
-## Features
+## 🚀 Live Demo
+
+Check out the live application: [Image Dekho Live](https://ai-image-genrator.vercel.app/)
+
+## ✨ Features
 
 - Text-to-image generation
 - Multiple artistic style presets
@@ -12,7 +16,7 @@ A modern React application that generates images using Stability AI's powerful i
 - Prompt history
 - Share functionality
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - React
 - TypeScript
@@ -20,7 +24,7 @@ A modern React application that generates images using Stability AI's powerful i
 - Stability AI API
 - CSS3 with modern features
 
-## Getting Started
+## 🚦 Getting Started
 
 1. Clone the repository:
 ```bash
@@ -45,7 +49,7 @@ npm run dev
 
 5. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Available Style Presets
+## 🎨 Available Style Presets
 
 - Analog Film
 - Anime
@@ -64,6 +68,20 @@ npm run dev
 - Pixel Art
 - 3D Model
 
-## Contributing
+## 🌐 Deployment
+
+The application is deployed on Vercel. To deploy your own version:
+
+1. Fork this repository
+2. Create a Vercel account at https://vercel.com
+3. Connect your GitHub repository to Vercel
+4. Add your `VITE_STABILITY_API_KEY` to the Environment Variables in Vercel
+5. Deploy!
+
+## 🤝 Contributing
 
 Feel free to submit issues and enhancement requests!
+
+## 📝 License
+
+This project is licensed under the MIT License.
